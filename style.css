@@ -1,0 +1,272 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.left-bar {
+    width: 18%;
+    height: 60vh;
+    background-color: rgb(253, 134, 8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.left-bar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left-bar ul li {
+    margin: 20px 0;
+}
+
+.left-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.main-content {
+    margin-left: 20%;
+    padding: 20px;
+    width: 80%;
+}
+
+.main-content h1 {
+    margin-top: 0;
+    font-size: 2.5em;
+}
+
+.showcase h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgb(253, 134, 8); /* Set the color */
+    text-decoration: underline ; /* Add underline */
+    text-decoration-thickness: 0.1cm; /* Set underline thickness */
+    text-decoration-color: rgb(253, 134, 8); /* Set underline color to match text */
+}
+
+.showcase .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the images horizontally */
+}
+
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: rgb(253, 134, 8); /* Set the color */
+    text-decoration: underline ; /* Add underline */
+    text-decoration-thickness: 0.1cm; /* Set underline thickness */
+    position: relative; /* Position relative for pseudo-element */
+}
+
+.services .underline {
+    text-decoration: none; /* Remove default underline */
+    position: relative; /* Position relative for pseudo-element */
+}
+
+
+
+
+
+
+
+.designer-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5%; /* Added gap property to control spacing */
+}
+
+.designers h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: rgb(253, 134, 8); /* Set the color */
+    text-decoration: underline ; /* Add underline */
+    text-decoration-thickness: 0.1cm; /* Set underline thickness */
+    position: relative; /* Position relative for pseudo-element */
+}
+
+.designers .underline {
+    text-decoration: none; /* Remove default underline */
+    position: relative; /* Position relative for pseudo-element */
+}
+
+.showcase .images img {
+    /*width: 30%;
+    margin: 1%;*/
+    width: 48%; /* Adjust the width to fit 2 images per row with some margin */
+    margin: 0.6%; /* Adjust the margin to ensure proper spacing */
+}
+
+.designer-images img {
+    width: 32%; /* Adjust width to fit three images per row */
+    margin-bottom: 0%; /* Adjust margin to reduce gap between rows */
+}
+
+
+.packages {
+    margin: 0 auto;
+    max-width: 8000px;
+    text-align: left;
+    margin-bottom: 20px 0; /* Added from your styles */
+}
+
+.packages h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgb(253, 134, 8); /* Set the color */
+    text-decoration: underline ; /* Add underline */
+    
+    text-decoration-thickness: 0.1cm; /* Set underline thickness */
+    position: relative; /* Position relative for pseudo-element */
+}
+
+.package-container {
+    display: flex;
+    justify-content: space-between; /* Space between the packages */
+    flex-wrap: wrap; /* Ensure responsiveness */
+    
+   /* gap: 20px;  Adjust gap between packages */
+}
+
+.package {
+    border: 1px solid #ddd; /* Added from your styles */
+    padding: 20px;
+    
+    margin-bottom: 20px; /* Added from your styles */
+    width: 45%; /* Adjusted width to fit two packages per row with a gap of 20px */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.package h3 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.package ul {
+    list-style: none;
+    padding: 0; /* Added from your styles */
+    text-align: center; /* Center the list items */
+}
+
+.package ul li {
+    margin-bottom: 10px; /* Added from your styles */
+    text-align: center;
+}
+.controls {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.package button {
+    padding: 5px 10px;
+    text-align: center;
+    margin: 10px 0; /* Added from your styles */
+    display: block;
+    
+}
+
+.price {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 10px 0;
+    display: block;
+}
+
+.sign-up {
+    
+    background-color: rgb(253, 134, 8);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%; /* Make the button take full width */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    margin-top: auto; /* Push the button to the bottom if there is extra space */
+    
+}
+
+#thank-you {
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#thank-you #chosen-rooms {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+form button {
+    display: block;
+    padding: 10px 20px;
+}
+
+.contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgb(253, 134, 8);
+    text-decoration: underline;
+    text-decoration-color: rgb(253, 134, 8);
+    text-decoration-thickness: 0.1em; /* Adjust the thickness as necessary */
+    text-underline-offset: 0.2em; /* Adjust the offset as necessary */
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+#contact-form button {
+    background-color: rgb(253, 134, 8);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+#contact-form button:hover {
+    background-color: #e69500; /* Slightly darker shade for hover effect */
+}

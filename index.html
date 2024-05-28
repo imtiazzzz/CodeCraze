@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="left-bar">
+        <ul>
+            <li><a href="#">The Company</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Showcase</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Designers</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Interior Design</h1>
+        
+        <section class="showcase">
+            <h2>Showcase.</h2>
+
+
+            <div class="images">
+                <img src="images/image1.jpg.png" alt="image 1">
+                <img src="images/image2.jpg.png" alt="Image 2">
+                <img src="images/image3.jpg.png" alt="Image 3">
+                <img src="images/image4.jpg.png" alt="Image 4">
+                <img src="images/image5.jpg.png" alt="Image 5">
+                <img src="images/image6.jpg.png" alt="Image 6">
+            </div>
+        </section>
+        
+        <section class="services">
+            <h2>Services.</h2>
+            <p>We are a interior design service that focus on what's best for your home and what's best for you! </p>
+               <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </section>
+        
+        <section class="designers">
+            
+            <h2>Designers.</h2>
+
+            <p>The best team in the world. </p>
+             <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <strong>Our designers are thoutghfully choosen:</strong>
+
+             <div class="designer-images">
+                <img src="images/Designer 1.png" alt="Designer 1">
+                <img src="images/Designer 2.png" alt="Designer 2">
+                <img src="images/Designer 3.png" alt="Designer 3">
+            </div>
+        </section>
+        
+        <section class="packages">
+            <h2>Packages.</h2>
+            <div class="package-container">
+                <div class="package">
+                <h3>Basic</h3>
+                <ul>
+                    <li>Floorplanning</li>
+                    <li>10 hours support</li>
+                    <li>Photography</li>
+                    <li>20% furniture discount</li>
+                    <li>Good deals</li>
+                </ul>
+                <div class="controls">
+                <button class="minus">-</button>
+                <span class="rooms">1 room</span>
+                <button class="plus">+</button>
+                </div>
+                <span class="price">$199</span>
+                <button class="sign-up">Sign Up</button>
+            </div>
+            
+            <div class="package">
+                <h3>Pro</h3>
+                <ul>
+                    <li>Floorplanning</li>
+                    <li>50 hours support</li>
+                    <li>Photography</li>
+                    <li>50% furniture discount</li>
+                    <li>GREAT deals</li>
+                </ul>
+                <div class="controls">
+                <button class="minus">-</button>
+                <span class="rooms">1 room</span>
+                <button class="plus">+</button>
+                </div>
+                <span class="price">$249</span>
+                <button class="sign-up">Sign Up</button>
+            </div>
+        </div>
+            <p id="thank-you" style="display: none;">Thank you for choosing <span id="chosen-rooms">1 room</span></p>
+        </section>
+        
+        <section class="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Name">
+                <input type="email" id="email" placeholder="Email">
+                <textarea id="message" placeholder="Message"></textarea>
+                <button type="Send Message">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
